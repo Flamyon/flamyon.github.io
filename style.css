@@ -80,6 +80,7 @@ header{
 
 .header-content{
     display: flex;
+    padding-left: 35%;
 }
 
 .content{
