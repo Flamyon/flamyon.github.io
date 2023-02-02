@@ -47,6 +47,7 @@ header{
     font-weight: 700;
     font-size: 25px;
     color:#ffffff;
+    padding-left:3% ;
 }
 
 .menu .navbar ul li{
@@ -80,7 +81,7 @@ header{
 
 .header-content{
     display: flex;
-    padding-left: 35%;
+    padding-left: 30%;
 }
 
 .content{
@@ -112,4 +113,38 @@ header{
     color: #ffffff;
     border-radius: 25px;
 
+}
+
+p{
+    text-size-adjust: 5;
+}
+
+.services{
+    display: flex;
+}
+
+.errores {
+    align-items: center;
+}
+
+section{
+    display: flex;
+    width: 72%;
+    height: 600px;
+    padding-left: 14%;
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .8s ease;
+}
+
+section img:hover{
+    cursor:crosshair;
+    width: 60%;
+    opacity: 1;
+    filter: contrast(120%);
 }
